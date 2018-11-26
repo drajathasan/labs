@@ -95,7 +95,7 @@ if (isset($_POST['helpFile'])) {
 				<div class="btn-group">
 				  <img class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" src="<?php echo genImageSrc();?>">
 				  <div class="dropdown-menu">
-				    <a class="dropdown-item u-profile" href="javascript:void(0)"><strong>Admin</strong><br><small>Librarian</small></a>
+				    <a class="dropdown-item u-profile" href="javascript:void(0)"><strong><?php echo ucfirst($_SESSION['uname']);?></strong><br><small>Librarian</small></a>
 				    <a class="dropdown-item u-profile" href="javascript:void(0)">Edit Profile</a>
 				    <a class="dropdown-item a-template notAJAX openPopUp" title="About me" href="<?php echo AWB;?>admin_template/labs/aboutme.html">About template</a>
 				    <a class="dropdown-item" href="logout.php">Logout</a>
