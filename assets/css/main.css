@@ -73,20 +73,27 @@ header.nav > .nav-content > .left > .module > ul > li {
 }
 
 header.nav > .nav-content > .left > .module > ul > li > a {
-	color: #fff;
+	color: #f6f6f6;
 	text-decoration: none;
+	display: block;
+	padding: 2px;
+	border-radius: 4px;
 }
 
 header.nav > 
 .nav-content > .left > 
 .module > ul > li > a:hover {
-	border-bottom: 5px solid #e24329;
+	border-bottom: 1px solid #e24329;
 	padding-bottom: 2px;
+	background: #7f65cb;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: white;
 }
 
 .mod-active {
-	border-bottom: 5px solid #e24329;
-	padding-bottom: 2px;
+	border-bottom: 1px solid #e24329;
+	/*padding-bottom: 2px;*/
 }
 
 .my-modal {
@@ -209,8 +216,13 @@ div#sidepan {
 }
 
 .sub-header-menu {
-	margin-left: 2px;
+	/*margin-left: 2px;*/
 	font-weight: bold;
+}
+
+.sub-header-menu:hover {
+	background: #ededed;
+	cursor: pointer;
 }
 
 .sub-header-menu > a {
@@ -357,4 +369,15 @@ i.other-mod:hover {
 .alterCell,.alterCell2 {
 	font-size: 12pt !important;
 }
+
+#userImage > img {
+	width: 100px; 
+	height: 100px;
+	border-radius: 100px;
+}
+
+.wel-pic {
+	cursor: pointer;
+}
+
 /* End Other Class 
